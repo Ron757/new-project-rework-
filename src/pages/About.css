@@ -195,14 +195,102 @@ body{
   .founder-tag{
     color: grey;
   }
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 768px) {
     .about_hero-section {
-      padding: 80px 15px;
-   }
-   .about_hero-section .about-heading {
-    font-size: 30px;
-    margin-left: 2rem;
-    margin-bottom: 15px;
+        padding: 60px 10px;
+    }
+
+    .about_hero-section .about-heading {
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .about_hero-section p {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .intro-section h2 {
+        font-size: 30px;
+        padding-left: 0;
+    }
+
+    .intro-logo {
+        width: 50%;
+    }
+
+    .intro-section .intro-text {
+        max-width: 100%;
+    }
+
+    .details-section {
+        flex-direction: column;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .details-logo,
+    .details-content {
+        margin: 0;
+        width: 100%;
+    }
+
+    .details-logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .founders-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .founder {
+        width: 100%;
+        height: auto;
+    }
+
+    .founder img {
+        width: 100%;
+    }
 }
 
-  }
+@media (max-width: 480px) {
+    .about_hero-section {
+        padding: 40px 10px;
+    }
+
+    .about_hero-section .about-heading {
+        font-size: 25px;
+    }
+
+    .about_hero-section p {
+        font-size: 16px;
+    }
+
+    .intro-section h2 {
+        font-size: 25px;
+    }
+
+    .intro-section .intro-text p {
+        font-size: 16px;
+    }
+
+    .founders-section h3 {
+        font-size: 30px;
+    }
+
+    .founder h4 {
+        font-size: 20px;
+    }
+
+    .founder p {
+        font-size: 16px;
+    }
+
+    .icon a img {
+        width: 15%;
+    }
+}
