@@ -199,4 +199,10 @@ body{
     .about_hero-section {
       padding: 80px 15px;
    }
+   .about_hero-section .about-heading {
+    font-size: 30px;
+    margin-left: 2rem;
+    margin-bottom: 15px;
+}
+
   }
