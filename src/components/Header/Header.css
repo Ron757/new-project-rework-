@@ -1,0 +1,89 @@
+/* Header.css */
+nav {
+  background: black;
+  height: 6rem;
+  display: grid;
+  place-items: center;
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem; /* Add some padding to avoid content touching edges */
+}
+
+.Logobg {
+  width: auto;
+  height: 3rem; /* Adjust logo size if necessary */
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Reduce gap for smaller screens */
+  padding-right: 2rem; /* Adjust padding */
+}
+
+.nav-menu li a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-menu li .above {
+  padding: 0.5rem 1rem; /* Adjust padding */
+  border: 3px solid transparent;
+  border-radius: 10px;
+}
+
+.nav-menu a:hover {
+  color: black;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0.5rem 1rem; /* Adjust padding */
+  text-decoration: underline;
+  transition: 0.3s; /* Adjust transition duration */
+}
+
+.nav-toggle-button {
+  background: transparent;
+  color: white;
+  display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-toggle-button {
+    display: block;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    background: black;
+    width: 100%;
+    text-align: right;
+    padding: 1rem;
+  }
+
+  .nav-menu.active li a {
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+}

@@ -1,0 +1,209 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-us {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.about_hero-section {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.about_hero-section .about-heading {
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: 0 auto;
+  color: #f5f5f5;
+}
+
+.about_hero-section p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.intro-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-weight: 450;
+  padding: 0 10px;
+}
+
+.intro-section .intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-logo {
+  width: 100%;
+  max-width: 300px;
+}
+
+.intro-section .intro-text {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-section .intro-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(60, 64, 67, 0.3);
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 90%;
+  max-width: 1040px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(60, 64, 67, 0.3);
+}
+
+.details-content {
+  max-width: 100%;
+  text-align: center;
+}
+
+.details-content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 650;
+  margin-bottom: 15px;
+}
+
+.details-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 590;
+  line-height: 1.5;
+}
+
+.details-logo {
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
+}
+
+.details-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.founders-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.founders-section h3 {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.founders-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.founder {
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  max-width: 300px;
+  box-shadow: 5px 5px 10px rgba(60, 64, 67, 0.3);
+  border-radius: 15px;
+}
+
+.founder img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.founder h4 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.founder p {
+  margin: 5px 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.founder .icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon a img {
+  width: 20px;
+}
+
+.founder-tag {
+  color: grey;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about_hero-section .about-heading {
+    font-size: 35px;
+  }
+
+  .about_hero-section p {
+    font-size: 20px;
+  }
+
+  .intro-section h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+  .intro-section .intro-text p {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .details-content h2 {
+    font-size: 30px;
+  }
+
+  .details-content p {
+    font-size: 14px;
+  }
+
+  .founders-section h3 {
+    font-size: 30px;
+  }
+
+  .founder {
+    width: 100%;
+    max-width: 90%;
+  }
+}

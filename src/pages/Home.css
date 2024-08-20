@@ -1,0 +1,374 @@
+/* Base Styles */
+.collaborations-page {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero-text {
+  margin-bottom: 20px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 250;
+  letter-spacing: 0.5rem;
+}
+
+.hero-text p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+  padding: 3px 2px;
+}
+
+.hero-placeholder .btn {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px rgba(60, 64, 67, 0.3);
+}
+
+.hero-placeholder .btn:hover {
+  box-shadow: 8px 6px 8px 6px rgba(60, 64, 67, 0.3), 8px 6px 8px 6px rgba(60, 64, 67, 0.15);
+}
+
+.hero-placeholder img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  top: 0.2rem;
+}
+
+.content .content_heading,
+.content .content_heading_2,
+.content .content_heading_3,
+.content .content_heading_4 {
+  width: 90%;
+  margin: 10px auto;
+  border: 3px solid white;
+  box-shadow: 8px 6px 8px 6px rgba(60, 64, 67, 0.3), 8px 6px 8px 6px rgba(60, 64, 67, 0.15);
+  border-radius: 25px;
+  padding: 20px 4px;
+  font-size: 20px;
+}
+
+.content h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.faq {
+  width: 45%;
+  margin: 5px 10px;
+  z-index: 2;
+}
+
+.logos img {
+  width: 25%;
+  margin: 50px 75px;
+}
+
+.what-we-do-section {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.what-we-do-section h2 {
+  margin-bottom: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 650;
+  font-size: 45px;
+}
+
+.what-we-do-section p {
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.step {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 0;
+  border-radius: 8px;
+  padding: 45px;
+  text-align: center;
+}
+
+.index_1, .index_2, .index_3 {
+  border: 5px solid #f5f5f5;
+  background-color: #f5f5f5;
+  margin-top: 3.4rem;
+  padding: 1rem;
+  width: 9.6rem;
+  height: 12.5rem;
+  border-radius: 20px;
+}
+
+.index_2 {
+  position: relative;
+}
+
+.index_3 {
+  position: relative;
+}
+
+.dottedline1, .dottedline2 {
+  display: inline-flex;
+}
+
+.step-content {
+  width: 100%;
+  padding: 65px 90px;
+  border-radius: 25px;
+  box-shadow: 8px 6px 8px 6px rgba(60, 64, 67, 0.3), 8px 6px 8px 6px rgba(60, 64, 67, 0.15);
+}
+
+#step_2 {
+  padding: 85px 90px;
+  transform: translateX(-150px) translateY(-10px);
+}
+
+.step h3 {
+  font-size: 90px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 560;
+  color: #cecece;
+  margin: 0.3rem;
+}
+
+.step-content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 650;
+  margin-bottom: 10px;
+}
+
+.step-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#step_3 {
+  width: 100%;
+  padding: 80px 90px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 30px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  margin-right: 1.3rem;
+  font-size: 20px;
+}
+
+.partners-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.partners-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 650;
+}
+
+.partners-logos img {
+  width: 30%;
+  margin: 40px 80px;
+}
+
+.last_section {
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.last_section h2 {
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.company_desc p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 650;
+}
+
+.company_desc h4 {
+  margin-top: -5rem;
+  margin-left: 43%;
+  width: 20%;
+  margin-bottom: 6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 2px 3px 2px 3px rgba(60, 64, 67, 0.3), 2px 3px 2px 3px rgba(60, 64, 67, 0.15);
+}
+
+.image_desc {
+  width: 43%;
+  position: relative;
+  left: 10%;
+}
+
+.desc {
+  width: 37%;
+  position: relative;
+  top: -13.5rem;
+  left: 50%;
+}
+
+.desc p {
+  font-size: 16.4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: initial;
+  margin: 6px 0;
+  color: black;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hero-placeholder img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-placeholder .btn {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+
+  .content .content_heading,
+  .content .content_heading_2,
+  .content .content_heading_3,
+  .content .content_heading_4 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .logos img {
+    width: 30%;
+  }
+
+  .what-we-do-section .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step {
+    max-width: 100%;
+  }
+
+  .partners-logos img {
+    width: 40%;
+  }
+
+  .last_section .image_desc img {
+    width: 100px;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-placeholder img {
+    width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 50px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+
+  .content .content_heading,
+  .content .content_heading_2,
+  .content .content_heading_3,
+  .content .content_heading_4 {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .logos img {
+    width: 25%;
+  }
+
+  .what-we-do-section .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step {
+    max-width: 90%;
+  }
+
+  .partners-logos img {
+    width: 30%;
+  }
+
+  .last_section .image_desc img {
+    width: 120px;
+  }
+}
